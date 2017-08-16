@@ -7,7 +7,7 @@
     "url": "???"
   },
   "scripts": {
-    "build": "au build --env=prod && node minification.js"
+    "build": "rm -rf ./scripts && au build --env=prod && node minification.js && rm -rf ./test/aurelia__shrink.js && cp ./scripts/aurelia__shrink.js ./test/"
   },
   "license": "MIT",
   "dependencies": {

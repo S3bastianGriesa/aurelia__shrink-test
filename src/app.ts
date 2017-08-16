@@ -1,5 +1,10 @@
+import {bindable} from 'aurelia-framework';
+
 export class App {
+
+
   public testData: Array<string>;
+  @bindable() resource: string;
 
   constructor() {
     this.testData = new Array<string>();
