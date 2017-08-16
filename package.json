@@ -6,6 +6,9 @@
     "type": "???",
     "url": "???"
   },
+  "scripts": {
+    "build": "au build --env=prod && node minification.js"
+  },
   "license": "MIT",
   "dependencies": {
     "@5minds/aurelia-ui-virtualization": "^1.0.0-beta.3.1.2",
