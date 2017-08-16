@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "rm -rf ./scripts && au build --env=prod && node minification.js && rm -rf ./test/aurelia__shrink.js && cp ./scripts/aurelia__shrink.js ./test/",
-    "start": "npm run build && http-server ./test"
+    "start": "npm run build && http-server ./test -o"
   },
   "license": "MIT",
   "dependencies": {
