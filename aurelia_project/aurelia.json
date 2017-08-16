@@ -129,9 +129,9 @@
             "env": "dev"
           },
           {
-            "name": "@5minds/aurelia-ui-virtualization",
+            "name": "aurelia-ui-virtualization",
             "main": "aurelia-ui-virtualization",
-            "path": "../node_modules/@5minds/aurelia-ui-virtualization/dist/amd",
+            "path": "../node_modules/aurelia-ui-virtualization/dist/amd",
             "resources": []
           }
         ]
