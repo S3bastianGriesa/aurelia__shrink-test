@@ -127,6 +127,12 @@
             "path": "../node_modules/aurelia-testing/dist/amd",
             "main": "aurelia-testing",
             "env": "dev"
+          },
+          {
+            "name": "@5minds/aurelia-ui-virtualization",
+            "main": "aurelia-ui-virtualization",
+            "path": "../node_modules/@5minds/aurelia-ui-virtualization/dist/amd",
+            "resources": []
           }
         ]
       }

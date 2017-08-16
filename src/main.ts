@@ -14,5 +14,8 @@ export function configure(aurelia: Aurelia) {
     aurelia.use.plugin('aurelia-testing');
   }
 
+  aurelia.use
+    .plugin('@5minds/aurelia-ui-virtualization');
+
   aurelia.start().then(() => aurelia.setRoot());
 }
