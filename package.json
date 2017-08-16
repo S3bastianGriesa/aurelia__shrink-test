@@ -7,13 +7,15 @@
     "url": "???"
   },
   "scripts": {
-    "build": "rm -rf ./scripts && au build --env=prod && node minification.js && rm -rf ./test/aurelia__shrink.js && cp ./scripts/aurelia__shrink.js ./test/"
+    "build": "rm -rf ./scripts && au build --env=prod && node minification.js && rm -rf ./test/aurelia__shrink.js && cp ./scripts/aurelia__shrink.js ./test/",
+    "start": "npm run build && http-server ./test"
   },
   "license": "MIT",
   "dependencies": {
-    "aurelia-ui-virtualization": "*",
     "aurelia-bootstrapper": "^2.1.1",
+    "aurelia-ui-virtualization": "*",
     "bluebird": "^3.4.1",
+    "http-server": "^0.10.0",
     "requirejs": "^2.3.2",
     "text": "github:requirejs/text#latest"
   },
